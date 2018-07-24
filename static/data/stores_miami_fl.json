@@ -1,0 +1,418 @@
+[
+  {
+    "address": {
+      "postalCode": "33147",
+      "address": "3200 Nw 79th Street",
+      "city": "Miami",
+      "state": "FL",
+      "country": "US"
+    },
+    "id": 2308,
+    "phone": "305-913-8439",
+    "displayName": "Miami Supercenter",
+    "geoPoint": {
+      "latitude": 25.843304,
+      "longitude": -80.251349
+    },
+    "operationalHours": {
+      "open24Hours": null,
+      "monToFriHrs": {
+        "startHr": "07:00",
+        "endHr": "23:00",
+        "openFullDay": null
+      },
+      "sundayHrs": {
+        "startHr": "07:00",
+        "endHr": "23:00",
+        "openFullDay": null
+      },
+      "saturdayHrs": {
+        "startHr": "07:00",
+        "endHr": "23:00",
+        "openFullDay": null
+      },
+      "todayHrs": {
+        "startHr": "07:00",
+        "endHr": "23:00",
+        "openFullDay": null
+      },
+      "tomorrowHrs": {
+        "startHr": "07:00",
+        "endHr": "23:00",
+        "openFullDay": null
+      }
+    }
+  },
+  {
+    "address": {
+      "postalCode": "33144",
+      "address": "6991 Sw 8th St",
+      "city": "Miami",
+      "state": "FL",
+      "country": "US"
+    },
+    "id": 540,
+    "phone": "786-257-4094",
+    "displayName": "Miami Neighborhood Market",
+    "geoPoint": {
+      "latitude": 25.76493,
+      "longitude": -80.308812
+    },
+    "operationalHours": {
+      "open24Hours": true,
+      "monToFriHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "sundayHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "saturdayHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "todayHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "tomorrowHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      }
+    }
+  },
+  {
+    "address": {
+      "postalCode": "33155",
+      "address": "8400 Coral Way",
+      "city": "Miami",
+      "state": "FL",
+      "country": "US"
+    },
+    "id": 657,
+    "phone": "305-351-0725",
+    "displayName": "Miami Supercenter",
+    "geoPoint": {
+      "latitude": 25.745963,
+      "longitude": -80.332793
+    },
+    "operationalHours": {
+      "open24Hours": null,
+      "monToFriHrs": null,
+      "sundayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "saturdayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "todayHrs": null,
+      "tomorrowHrs": null
+    }
+  },
+  {
+    "address": {
+      "postalCode": "33126",
+      "address": "8651 Nw 13th Ter",
+      "city": "Doral",
+      "state": "FL",
+      "country": "US"
+    },
+    "id": 996,
+    "phone": "305-470-4510",
+    "displayName": "Doral Supercenter",
+    "geoPoint": {
+      "latitude": 25.787081,
+      "longitude": -80.335317
+    },
+    "operationalHours": {
+      "open24Hours": true,
+      "monToFriHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "sundayHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "saturdayHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "todayHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "tomorrowHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      }
+    }
+  },
+  {
+    "address": {
+      "postalCode": "33174",
+      "address": "9191 W. Flagler St",
+      "city": "Miami",
+      "state": "FL",
+      "country": "US"
+    },
+    "id": 362,
+    "phone": "786-801-5704",
+    "displayName": "Miami Supercenter",
+    "geoPoint": {
+      "latitude": 25.7702714,
+      "longitude": -80.3434775
+    },
+    "operationalHours": {
+      "open24Hours": null,
+      "monToFriHrs": null,
+      "sundayHrs": {
+        "startHr": "06:00",
+        "endHr": "02:00",
+        "openFullDay": null
+      },
+      "saturdayHrs": {
+        "startHr": "06:00",
+        "endHr": "02:00",
+        "openFullDay": null
+      },
+      "todayHrs": null,
+      "tomorrowHrs": null
+    }
+  },
+  {
+    "address": {
+      "postalCode": "33012",
+      "address": "400 W 49th St",
+      "city": "Hialeah",
+      "state": "FL",
+      "country": "US"
+    },
+    "id": 443,
+    "phone": "305-507-2044",
+    "displayName": "Hialeah Neighborhood Market",
+    "geoPoint": {
+      "latitude": 25.866091,
+      "longitude": -80.291605
+    },
+    "operationalHours": {
+      "open24Hours": true,
+      "monToFriHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "sundayHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "saturdayHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "todayHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "tomorrowHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      }
+    }
+  },
+  {
+    "address": {
+      "postalCode": "33016",
+      "address": "9300 Nw 77th Ave",
+      "city": "Hialeah",
+      "state": "FL",
+      "country": "US"
+    },
+    "id": 817,
+    "phone": "305-819-0672",
+    "displayName": "Hialeah Supercenter",
+    "geoPoint": {
+      "latitude": 25.858519,
+      "longitude": -80.3255
+    },
+    "operationalHours": {
+      "open24Hours": true,
+      "monToFriHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "sundayHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "saturdayHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "todayHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "tomorrowHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      }
+    }
+  },
+  {
+    "address": {
+      "postalCode": "33162",
+      "address": "1425 Ne 163rd St",
+      "city": "North Miami Beach",
+      "state": "FL",
+      "country": "US"
+    },
+    "id": 731,
+    "phone": "305-949-5881",
+    "displayName": "North Miami Beach Supercenter",
+    "geoPoint": {
+      "latitude": 25.928265,
+      "longitude": -80.171269
+    },
+    "operationalHours": {
+      "open24Hours": null,
+      "monToFriHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "sundayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "saturdayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "todayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "tomorrowHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      }
+    }
+  },
+  {
+    "address": {
+      "postalCode": "33169",
+      "address": "17650 Nw 2nd Ave",
+      "city": "Miami Gardens",
+      "state": "FL",
+      "country": "US"
+    },
+    "id": 493,
+    "phone": "305-651-4661",
+    "displayName": "Miami Gardens Supercenter",
+    "geoPoint": {
+      "latitude": 25.935725,
+      "longitude": -80.207676
+    },
+    "operationalHours": {
+      "open24Hours": null,
+      "monToFriHrs": {
+        "startHr": "06:30",
+        "endHr": "01:30",
+        "openFullDay": null
+      },
+      "sundayHrs": {
+        "startHr": "06:30",
+        "endHr": "01:30",
+        "openFullDay": null
+      },
+      "saturdayHrs": {
+        "startHr": "06:30",
+        "endHr": "01:30",
+        "openFullDay": null
+      },
+      "todayHrs": {
+        "startHr": "06:30",
+        "endHr": "01:30",
+        "openFullDay": null
+      },
+      "tomorrowHrs": {
+        "startHr": "06:30",
+        "endHr": "01:30",
+        "openFullDay": null
+      }
+    }
+  },
+  {
+    "address": {
+      "postalCode": "33055",
+      "address": "3791 Nw 167th Street",
+      "city": "Miami Gardens",
+      "state": "FL",
+      "country": "US"
+    },
+    "id": 602,
+    "phone": "305-914-1867",
+    "displayName": "Miami Gardens Neighborhood Market",
+    "geoPoint": {
+      "latitude": 25.926748,
+      "longitude": -80.262238
+    },
+    "operationalHours": {
+      "open24Hours": null,
+      "monToFriHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "sundayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "saturdayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "todayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "tomorrowHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      }
+    }
+  }
+]

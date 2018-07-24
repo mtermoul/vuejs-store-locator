@@ -1,0 +1,422 @@
+[
+  {
+    "address": {
+      "postalCode": "32207",
+      "address": "4250 Phillips Hwy",
+      "city": "Jacksonville",
+      "state": "FL",
+      "country": "US"
+    },
+    "id": 2309,
+    "phone": "904-737-7007",
+    "displayName": "Jacksonville Supercenter",
+    "geoPoint": {
+      "latitude": 30.279227,
+      "longitude": -81.629059
+    },
+    "operationalHours": {
+      "open24Hours": null,
+      "monToFriHrs": {
+        "startHr": "06:00",
+        "endHr": "23:00",
+        "openFullDay": null
+      },
+      "sundayHrs": {
+        "startHr": "06:00",
+        "endHr": "23:00",
+        "openFullDay": null
+      },
+      "saturdayHrs": {
+        "startHr": "06:00",
+        "endHr": "23:00",
+        "openFullDay": null
+      },
+      "todayHrs": {
+        "startHr": "06:00",
+        "endHr": "23:00",
+        "openFullDay": null
+      },
+      "tomorrowHrs": {
+        "startHr": "06:00",
+        "endHr": "23:00",
+        "openFullDay": null
+      }
+    }
+  },
+  {
+    "address": {
+      "postalCode": "32216",
+      "address": "8808 Beach Blvd",
+      "city": "Jacksonville",
+      "state": "FL",
+      "country": "US"
+    },
+    "id": 7173,
+    "phone": "904-642-4999",
+    "displayName": "Jacksonville Supercenter",
+    "geoPoint": {
+      "latitude": 30.283485,
+      "longitude": -81.562702
+    },
+    "operationalHours": {
+      "open24Hours": null,
+      "monToFriHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "sundayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "saturdayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "todayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "tomorrowHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      }
+    }
+  },
+  {
+    "address": {
+      "postalCode": "32257",
+      "address": "10550 Old St. Augustine Rd",
+      "city": "Jacksonville",
+      "state": "FL",
+      "country": "US"
+    },
+    "id": 5810,
+    "phone": "904-380-8271",
+    "displayName": "Jacksonville Neighborhood Market",
+    "geoPoint": {
+      "latitude": 30.185352,
+      "longitude": -81.609265
+    },
+    "operationalHours": {
+      "open24Hours": null,
+      "monToFriHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "sundayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "saturdayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "todayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "tomorrowHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      }
+    }
+  },
+  {
+    "address": {
+      "postalCode": "32256",
+      "address": "9550 Baymeadows Rd Suite #18",
+      "city": "Jacksonville",
+      "state": "FL",
+      "country": "US"
+    },
+    "id": 3562,
+    "phone": "904-431-6356",
+    "displayName": "Jacksonville Neighborhood Market",
+    "geoPoint": {
+      "latitude": 30.219351,
+      "longitude": -81.559375
+    },
+    "operationalHours": {
+      "open24Hours": null,
+      "monToFriHrs": null,
+      "sundayHrs": null,
+      "saturdayHrs": null,
+      "todayHrs": null,
+      "tomorrowHrs": null
+    }
+  },
+  {
+    "address": {
+      "postalCode": "32223",
+      "address": "10991 San Jose Blvd Ste 1",
+      "city": "Jacksonville",
+      "state": "FL",
+      "country": "US"
+    },
+    "id": 7088,
+    "phone": "904-260-4402",
+    "displayName": "Jacksonville Supercenter",
+    "geoPoint": {
+      "latitude": 30.177358,
+      "longitude": -81.625278
+    },
+    "operationalHours": {
+      "open24Hours": true,
+      "monToFriHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "sundayHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "saturdayHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "todayHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "tomorrowHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      }
+    }
+  },
+  {
+    "address": {
+      "postalCode": "32210",
+      "address": "6767 103rd St",
+      "city": "Jacksonville",
+      "state": "FL",
+      "country": "US"
+    },
+    "id": 3091,
+    "phone": "904-772-0011",
+    "displayName": "Jacksonville Supercenter",
+    "geoPoint": {
+      "latitude": 30.250666,
+      "longitude": -81.75302
+    },
+    "operationalHours": {
+      "open24Hours": null,
+      "monToFriHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "sundayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "saturdayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "todayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "tomorrowHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      }
+    }
+  },
+  {
+    "address": {
+      "postalCode": "32210",
+      "address": "6855 Wilson Boulevard",
+      "city": "Jacksonville",
+      "state": "FL",
+      "country": "US"
+    },
+    "id": 2007,
+    "phone": "904-513-6582",
+    "displayName": "Jacksonville Neighborhood Market",
+    "geoPoint": {
+      "latitude": 30.271548,
+      "longitude": -81.757048
+    },
+    "operationalHours": {
+      "open24Hours": null,
+      "monToFriHrs": {
+        "startHr": "06:00",
+        "endHr": "23:00",
+        "openFullDay": null
+      },
+      "sundayHrs": {
+        "startHr": "06:00",
+        "endHr": "23:00",
+        "openFullDay": null
+      },
+      "saturdayHrs": {
+        "startHr": "06:00",
+        "endHr": "23:00",
+        "openFullDay": null
+      },
+      "todayHrs": {
+        "startHr": "06:00",
+        "endHr": "23:00",
+        "openFullDay": null
+      },
+      "tomorrowHrs": {
+        "startHr": "06:00",
+        "endHr": "23:00",
+        "openFullDay": null
+      }
+    }
+  },
+  {
+    "address": {
+      "postalCode": "32205",
+      "address": "6830 Normandy Blvd",
+      "city": "Jacksonville",
+      "state": "FL",
+      "country": "US"
+    },
+    "id": 5084,
+    "phone": "904-786-0390",
+    "displayName": "Jacksonville Supercenter",
+    "geoPoint": {
+      "latitude": 30.301618,
+      "longitude": -81.758379
+    },
+    "operationalHours": {
+      "open24Hours": null,
+      "monToFriHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "sundayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "saturdayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "todayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "tomorrowHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      }
+    }
+  },
+  {
+    "address": {
+      "postalCode": "32258",
+      "address": "10251 Shops Ln",
+      "city": "Jacksonville",
+      "state": "FL",
+      "country": "US"
+    },
+    "id": 6445,
+    "phone": "904-288-8211",
+    "displayName": "Jacksonville Supercenter",
+    "geoPoint": {
+      "latitude": 30.179113,
+      "longitude": -81.555936
+    },
+    "operationalHours": {
+      "open24Hours": null,
+      "monToFriHrs": {
+        "startHr": "06:00",
+        "endHr": "01:00",
+        "openFullDay": null
+      },
+      "sundayHrs": {
+        "startHr": "06:00",
+        "endHr": "01:00",
+        "openFullDay": null
+      },
+      "saturdayHrs": {
+        "startHr": "06:00",
+        "endHr": "01:00",
+        "openFullDay": null
+      },
+      "todayHrs": {
+        "startHr": "06:00",
+        "endHr": "01:00",
+        "openFullDay": null
+      },
+      "tomorrowHrs": {
+        "startHr": "06:00",
+        "endHr": "01:00",
+        "openFullDay": null
+      }
+    }
+  },
+  {
+    "address": {
+      "postalCode": "32244",
+      "address": "7075 Collins Rd",
+      "city": "Jacksonville",
+      "state": "FL",
+      "country": "US"
+    },
+    "id": 1979,
+    "phone": "904-365-2555",
+    "displayName": "Jacksonville Supercenter",
+    "geoPoint": {
+      "latitude": 30.2073,
+      "longitude": -81.760143
+    },
+    "operationalHours": {
+      "open24Hours": true,
+      "monToFriHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "sundayHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "saturdayHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "todayHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "tomorrowHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      }
+    }
+  }
+]

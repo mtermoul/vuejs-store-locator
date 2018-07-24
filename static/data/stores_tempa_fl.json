@@ -1,0 +1,442 @@
+[
+  {
+    "address": {
+      "postalCode": "33607",
+      "address": "1505 N Dale Mabry Hwy",
+      "city": "Tampa",
+      "state": "FL",
+      "country": "US"
+    },
+    "id": 261,
+    "phone": "813-872-6992",
+    "displayName": "Tampa Supercenter",
+    "geoPoint": {
+      "latitude": 27.957315,
+      "longitude": -82.502404
+    },
+    "operationalHours": {
+      "open24Hours": true,
+      "monToFriHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "sundayHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "saturdayHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "todayHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "tomorrowHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      }
+    }
+  },
+  {
+    "address": {
+      "postalCode": "33606",
+      "address": "1601 W Kennedy Blvd",
+      "city": "Tampa",
+      "state": "FL",
+      "country": "US"
+    },
+    "id": 362,
+    "phone": "813-254-6125",
+    "displayName": "Tampa Neighborhood Market",
+    "geoPoint": {
+      "latitude": 27.94564,
+      "longitude": -82.476191
+    },
+    "operationalHours": {
+      "open24Hours": null,
+      "monToFriHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "sundayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "saturdayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "todayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "tomorrowHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      }
+    }
+  },
+  {
+    "address": {
+      "postalCode": "33611",
+      "address": "4302 W Gandy Blvd",
+      "city": "Tampa",
+      "state": "FL",
+      "country": "US"
+    },
+    "id": 584,
+    "phone": "813-371-9444",
+    "displayName": "Tampa Supercenter",
+    "geoPoint": {
+      "latitude": 27.8912188,
+      "longitude": -82.516223
+    },
+    "operationalHours": {
+      "open24Hours": true,
+      "monToFriHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "sundayHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "saturdayHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "todayHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "tomorrowHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      }
+    }
+  },
+  {
+    "address": {
+      "postalCode": "33614",
+      "address": "3671 W Hillsborough Ave",
+      "city": "Tampa",
+      "state": "FL",
+      "country": "US"
+    },
+    "id": 456,
+    "phone": "813-498-4095",
+    "displayName": "Tampa Neighborhood Market",
+    "geoPoint": {
+      "latitude": 27.997309,
+      "longitude": -82.503047
+    },
+    "operationalHours": {
+      "open24Hours": null,
+      "monToFriHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "sundayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "saturdayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "todayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "tomorrowHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      }
+    }
+  },
+  {
+    "address": {
+      "postalCode": "33614",
+      "address": "8220 N Dale Mabry Hwy",
+      "city": "Tampa",
+      "state": "FL",
+      "country": "US"
+    },
+    "id": 627,
+    "phone": "813-887-5175",
+    "displayName": "Tampa Supercenter",
+    "geoPoint": {
+      "latitude": 28.022623,
+      "longitude": -82.506783
+    },
+    "operationalHours": {
+      "open24Hours": true,
+      "monToFriHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "sundayHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "saturdayHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "todayHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "tomorrowHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      }
+    }
+  },
+  {
+    "address": {
+      "postalCode": "33634",
+      "address": "7011 W Waters Ave",
+      "city": "Tampa",
+      "state": "FL",
+      "country": "US"
+    },
+    "id": 788,
+    "phone": "813-881-0402",
+    "displayName": "Tampa Store",
+    "geoPoint": {
+      "latitude": 28.026915,
+      "longitude": -82.558895
+    },
+    "operationalHours": {
+      "open24Hours": true,
+      "monToFriHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "sundayHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "saturdayHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "todayHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      },
+      "tomorrowHrs": {
+        "startHr": "00:00",
+        "endHr": "24:00",
+        "openFullDay": true
+      }
+    }
+  },
+  {
+    "address": {
+      "postalCode": "33615",
+      "address": "6216 Elliot Dr",
+      "city": "Tampa",
+      "state": "FL",
+      "country": "US"
+    },
+    "id": 859,
+    "phone": "813-249-3145",
+    "displayName": "Tampa Neighborhood Market",
+    "geoPoint": {
+      "latitude": 28.006403,
+      "longitude": -82.59856
+    },
+    "operationalHours": {
+      "open24Hours": null,
+      "monToFriHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "sundayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "saturdayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "todayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "tomorrowHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      }
+    }
+  },
+  {
+    "address": {
+      "postalCode": "33610",
+      "address": "1720 E Hillsborough Ave",
+      "city": "Tampa",
+      "state": "FL",
+      "country": "US"
+    },
+    "id": 968,
+    "phone": "813-675-1531",
+    "displayName": "Tampa Supercenter",
+    "geoPoint": {
+      "latitude": 27.996875,
+      "longitude": -82.439696
+    },
+    "operationalHours": {
+      "open24Hours": null,
+      "monToFriHrs": {
+        "startHr": "06:00",
+        "endHr": "23:00",
+        "openFullDay": null
+      },
+      "sundayHrs": {
+        "startHr": "06:00",
+        "endHr": "23:00",
+        "openFullDay": null
+      },
+      "saturdayHrs": {
+        "startHr": "06:00",
+        "endHr": "23:00",
+        "openFullDay": null
+      },
+      "todayHrs": {
+        "startHr": "06:00",
+        "endHr": "23:00",
+        "openFullDay": null
+      },
+      "tomorrowHrs": {
+        "startHr": "06:00",
+        "endHr": "23:00",
+        "openFullDay": null
+      }
+    }
+  },
+  {
+    "address": {
+      "postalCode": "33604",
+      "address": "8885 N Florida Ave",
+      "city": "Tampa",
+      "state": "FL",
+      "country": "US"
+    },
+    "id": 227,
+    "phone": "813-932-0562",
+    "displayName": "Tampa Neighborhood Market",
+    "geoPoint": {
+      "latitude": 28.032076,
+      "longitude": -82.457679
+    },
+    "operationalHours": {
+      "open24Hours": null,
+      "monToFriHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "sundayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "saturdayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "todayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "tomorrowHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      }
+    }
+  },
+  {
+    "address": {
+      "postalCode": "33624",
+      "address": "4525 Gunn Hwy",
+      "city": "Tampa",
+      "state": "FL",
+      "country": "US"
+    },
+    "id": 445,
+    "phone": "813-261-6086",
+    "displayName": "Tampa Neighborhood Market",
+    "geoPoint": {
+      "latitude": 28.0496322,
+      "longitude": -82.5179737
+    },
+    "operationalHours": {
+      "open24Hours": null,
+      "monToFriHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "sundayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "saturdayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "todayHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      },
+      "tomorrowHrs": {
+        "startHr": "06:00",
+        "endHr": "24:00",
+        "openFullDay": null
+      }
+    }
+  }
+]
