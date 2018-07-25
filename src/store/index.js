@@ -106,15 +106,13 @@ export default new Vuex.Store({
     actions: {
         updateUserLocation ({commit}, payload) {
             // TODO: need to add function to detect user location using google maps location ws
-            // TODO: and set the selected location accordingly
             commit('SET_USER_LOCATION', payload)
         },
         updateSelectedStore ({commit}, payload) {
             commit('SET_SELECTED_STORE', payload)
         },
         updateSelectedLocation ({commit, state}, payload) {
-            // TODO: need to add the functionality to search by postalCode
-            // location: object {state: 'FL', city: 'Orlando', postalCode: '32821'}
+            // payload: location object {state: 'FL', city: 'Orlando', postalCode: '32821'}
             if (payload.state in state.availableLocations && payload.city in state.availableLocations[payload.state]) {
                 const location = state.availableLocations[payload.state][payload.city]
                 location.city = payload.city

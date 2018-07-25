@@ -5,7 +5,7 @@
                 <transition appear enter-active-class="animated fadeInDown" leave-active-class="animated fadeOutUp">
                 <v-card class="text-xs-center elevation-6">
                     <v-card-media
-                        src="https://cdn.vuetifyjs.com/images/cards/desert.jpg"
+                        :src="'https://loremflickr.com/640/480/store' + '?' + getTimeStamp()"
                         height="200px">
                     </v-card-media>
                     <v-card-title primary-title class="justify-center">
@@ -54,6 +54,9 @@ export default {
             } else {
                 return '(call for store hours)'
             }
+        },
+        getTimeStamp () {
+            return moment().format('X')
         }
     }
 }

@@ -6,10 +6,6 @@
             :center.sync="mapCenter"
             :zoom.sync="zoom">
 
-            <googlemaps-user-position
-                @update:position="onSetUserPosition">
-            </googlemaps-user-position>
-
             <googlemaps-marker
                 v-for="marker in mapMarkers"
                 :key="marker.id"
@@ -32,7 +28,6 @@ import EventBus from '../eventBus'
 export default {
     data () {
         return {
-            userPosition: null,
             mapCenter: {lat: 0, lng: 0},
             zoom: 11,
             mapMarkers: null,
@@ -72,9 +67,6 @@ export default {
         // -------------------
         // events
         // -------------------
-        onSetUserPosition (position) {
-            this.userPosition = position
-        },
         onMapMarkerClick (id) {
             this.ignoreCenterOnSelectedStore = true
             this.selectedStore = id
@@ -120,14 +112,6 @@ export default {
                 markers[this.stores[i].id] = marker
             }
             this.mapMarkers = markers
-        },
-        centerOnUser () {
-            // this may not be needed because it's not relevant for now.
-            // userPosition will be set automatically after the map is loaded if the user allows
-            // the detection of location.
-            if (this.userPosition) {
-                this.mapCenter = this.userPosition
-            }
         },
         centerOnStore (location) {
             // will repositioned the map center to the specific location
