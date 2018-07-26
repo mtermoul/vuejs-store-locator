@@ -13,7 +13,8 @@ Vue.use(Vuetify)
 
 Vue.use(VueGoogleMaps, {
     load: {
-        apiKey: 'AIzaSyAm97jzZ5TCgrRmAleXRtInyvKV-VQWE9Q',
+        // put your google API key either in the ./config/local.env.js file or just hardcode in the string below
+        apiKey: process.env.VUE_APP_GOOGLE_API_KEY || '',
         libraries: ['places'],
         useBetaRenderer: false
     }

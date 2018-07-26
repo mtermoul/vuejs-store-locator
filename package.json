@@ -14,6 +14,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "cosmicjs": "^3.2.12",
     "moment": "^2.22.2",
     "vue": "^2.5.2",
     "vue-googlemaps": "^0.1.1",
