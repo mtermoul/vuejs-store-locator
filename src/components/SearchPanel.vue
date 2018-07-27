@@ -134,7 +134,7 @@ export default {
         onConfirmLocationEdit () {
             // save the changes to vuex store
             const location = this.editedLocation.split(', ')
-            this.updateSelectedLocation({state: location[1], city: location[0], postalCode: ''})
+            this.updateSelectedLocation({state: location[1], city: location[0].toUpperCase(), postalCode: ''})
             this.resetComponentData()
         },
         onCancelLocationEdit () {
@@ -186,12 +186,6 @@ export default {
             this.selectedStore = null
             this.ignoreScrollToSelectedStore = false
             this.scrollToStoresListTop()
-        }
-    },
-    created () {
-        // set the default location
-        if (!(this.fullSelectedLocation && this.fullSelectedLocation.city)) {
-            this.updateSelectedLocation({state: 'FL', city: 'Orlando', postalCode: '32821'})
         }
     }
 }

@@ -151,10 +151,14 @@ export default {
         }
     },
     created () {
-        this.updateMapCenter(this.selectedLocation)
         EventBus.$on('recenterMapLocation', () => {
             this.recenterMapLocation()
         })
+    },
+    beforeMount () {
+        if (this.selectedLocation.geoPoint) {
+            this.updateMapCenter(this.selectedLocation)
+        }
     },
     googleMapsReady () {
         this.mapMarkerIconSize = new window.google.maps.Size(40, 40)
