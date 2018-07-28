@@ -1,6 +1,6 @@
 'use strict'
 const merge = require('webpack-merge')
-const prodEnv = require('./prod.env')
+// const prodEnv = require('./prod.env')
 let localEnv = {}
 
 try {
@@ -10,6 +10,6 @@ try {
     localEnv = {}
 }
 
-module.exports = merge(localEnv, prodEnv, {
+module.exports = merge(localEnv, {
   NODE_ENV: '"development"'
 })
