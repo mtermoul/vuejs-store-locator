@@ -5,8 +5,8 @@
                 <transition appear enter-active-class="animated fadeInDown" leave-active-class="animated fadeOutUp">
                 <v-card class="text-xs-center elevation-6">
                     <v-card-media
-                        :src="'https://loremflickr.com/640/480/store' + '?' + getTimeStamp()"
-                        height="200px">
+                        height="240px"
+                        :src="storeCardImage()">
                     </v-card-media>
                     <v-card-title primary-title class="justify-center">
                         <h3 class="headline mb-0">{{ storeData.displayName }}</h3>
@@ -20,7 +20,7 @@
                         <div><span>Mon - Sun</span><span class="span-pipe">|</span><span>{{ getStoreHoursDesc(storeData) }}</span></div>
                     </v-card-text>
                     <v-card-actions class="justify-center">
-                        <v-btn flat color="orange" :to="{name: 'Home'}">Go back</v-btn>
+                        <v-btn flat color="info" :to="{name: 'Home'}">Go back</v-btn>
                     </v-card-actions>
                 </v-card>
                 </transition>
@@ -57,6 +57,16 @@ export default {
         },
         getTimeStamp () {
             return moment().format('X')
+        },
+        storeCardImage () {
+            let allImages = this.$store.getters.storeCardImages
+            if (allImages.length) {
+                const index = Math.floor(Math.random() * allImages.length)
+                return allImages[index].imgix_url
+            } else {
+                // TODO: add local static image url here.
+                return ''
+            }
         }
     }
 }

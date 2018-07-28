@@ -32,8 +32,8 @@ export default {
             zoom: 11,
             mapMarkers: null,
             mapMarkerIconSize: null,
-            mapMarkerDefaultIcon: './static/images/Shopping_Bag_3.svg',
-            mapMarkerSelectedIcon: './static/images/Shopping_Bag_7.svg',
+            // mapMarkerDefaultIcon: 'https://cosmic-s3.imgix.net/08fb6f10-921e-11e8-92c7-d7a4fb5fbf55-Shopping_Bag_3.svg',
+            // mapMarkerSelectedIcon: 'https://cosmic-s3.imgix.net/09120450-921e-11e8-a052-e111405139f7-Shopping_Bag_6.svg',
             ignoreCenterOnSelectedStore: false
         }
     },
@@ -51,6 +51,9 @@ export default {
         },
         stores () {
             return this.$store.getters.stores
+        },
+        mapIcons () {
+            return this.$store.getters.mapIcons
         }
     },
     watch: {
@@ -108,7 +111,7 @@ export default {
                     lat: this.stores[i].geoPoint.latitude,
                     lng: this.stores[i].geoPoint.longitude
                 }
-                marker.icon = {url: this.mapMarkerDefaultIcon, scaledSize: this.mapMarkerIconSize}
+                marker.icon = {url: this.mapIcons.defaultIcon, scaledSize: this.mapMarkerIconSize}
                 markers[this.stores[i].id] = marker
             }
             this.mapMarkers = markers
@@ -140,7 +143,7 @@ export default {
         selectMapMarker (id, isOn) {
             // will make the specified id marker either heilighted or not
             if (this.mapMarkers && this.mapMarkers[id]) {
-                const url = isOn ? this.mapMarkerSelectedIcon : this.mapMarkerDefaultIcon
+                const url = isOn ? this.mapIcons.selectedIcon : this.mapIcons.defaultIcon
                 const icon = {url: url, scaledSize: this.mapMarkerIconSize}
                 this.mapMarkers[id].icon = icon
                 if (isOn) {

@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
-    "start": "npm run dev",
+    "start": "node server.js",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
@@ -14,16 +14,6 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "cosmicjs": "^3.2.12",
-    "moment": "^2.22.2",
-    "vue": "^2.5.2",
-    "vue-googlemaps": "^0.1.1",
-    "vue-resource": "^1.5.1",
-    "vue-router": "^3.0.1",
-    "vuetify": "^1.1.6",
-    "vuex": "^3.0.1"
-  },
-  "devDependencies": {
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.22.1",
     "babel-eslint": "^8.2.1",
@@ -79,7 +69,16 @@
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",
     "webpack-dev-server": "^2.9.1",
-    "webpack-merge": "^4.1.0"
+    "webpack-merge": "^4.1.0",
+    "cosmicjs": "^3.2.12",
+    "dotenv": "^6.0.0",
+    "moment": "^2.22.2",
+    "vue": "^2.5.2",
+    "vue-googlemaps": "^0.1.1",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.0.1",
+    "vuetify": "^1.1.6",
+    "vuex": "^3.0.1"
   },
   "engines": {
     "node": ">= 6.0.0",

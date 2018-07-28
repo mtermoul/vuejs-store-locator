@@ -1,5 +1,5 @@
 <template>
-    <v-card color="brown lighten-4" class="elevation-8 fill-height">
+    <v-card color="cyan accent-4" class="elevation-8 fill-height">
         <v-container fluid grid-list-lg>
             <v-layout row wrap>
 
@@ -10,7 +10,7 @@
                     <div class="subheading" v-show="!isSelectedLocationEdited">
                         <span>Your location:</span>
                         <a @click="onEditSelectedLocation"
-                            href="#">{{ selectedLocation }}</a>
+                            href="#" class="white--text">{{ selectedLocation }}</a>
                     </div>
                     <div class="subheading location-edit" v-show="isSelectedLocationEdited">
                         <v-combobox label="Select a location"
@@ -21,7 +21,7 @@
                         <v-btn icon small
                             :disabled="!editedLocation || editedLocation === selectedLocation"
                             @click="onConfirmLocationEdit"
-                            class="inline-button"><v-icon color="success">check_circle</v-icon></v-btn>
+                            class="inline-button"><v-icon color="indigo">check_circle</v-icon></v-btn>
                         <v-btn icon small
                             @click="onCancelLocationEdit"
                             class="inline-button"><v-icon color="error">cancel</v-icon></v-btn>
@@ -211,8 +211,8 @@ export default {
     padding-right: 0!important;*/
 }
 .store-container.store-hovered-on .store-item-card {
-    outline: 5px solid #8ec0f4;
-    background-color: aliceblue;
+    outline: 5px solid #9FA8DA;
+    background-color: #BBDEFB;
 }
 .store-hours {
     padding-left: 20px;
@@ -221,8 +221,8 @@ export default {
     cursor: pointer;
 }
 .store-item-card.isSelected {
-    border: 4px solid #ffc107;
-    background-color: cornsilk;
+    border: 4px solid #5C6BC0;
+    background-color: #BBDEFB;
 }
 .recenter-map-icon {
     cursor: pointer;

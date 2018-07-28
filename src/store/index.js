@@ -13,7 +13,9 @@ export default new Vuex.Store({
         selectedStore: null,
         availableLocations: {},
         stores: [],
-        cities: {}
+        storeCardImages: [],
+        mapIcons: {},
+        storesDataUrl: '../../static/data/'
     },
     getters: {
         userLocation (state) {
@@ -47,8 +49,11 @@ export default new Vuex.Store({
                 })
             }
         },
-        cities (state) {
-            return state.cities
+        storeCardImages (state) {
+            return state.storeCardImages
+        },
+        mapIcons (state) {
+            return state.mapIcons
         }
     },
     mutations: {
@@ -67,8 +72,11 @@ export default new Vuex.Store({
         SET_AVAILABLE_LOCATIONS (state, locations) {
             state.availableLocations = locations
         },
-        SET_CITIES (state, cities) {
-            state.cities = cities
+        SET_STORE_CARD_IMAGES (state, images) {
+            state.storeCardImages = images
+        },
+        SET_MAP_ICONS (state, icons) {
+            state.mapIcons = icons
         }
     },
     actions: {
@@ -89,7 +97,7 @@ export default new Vuex.Store({
                 // but we need to have a database with all stores by location and zip code
                 // const storesDataUrl = state.availableLocations[location.state][location.city]['dataUrl']
                 // read stores data from local json file
-                Vue.http.get(location.dataUrl)
+                Vue.http.get(state.storesDataUrl + location.dataUrl)
                     .then(response => response.json())
                     .then(data => {
                         if (data) {
@@ -140,6 +148,40 @@ export default new Vuex.Store({
                     commit('SET_AVAILABLE_LOCATIONS', locations)
                     // set the initial default location
                     dispatch('updateSelectedLocation', {state: 'FL', city: 'ORLANDO', postalCode: '32821'})
+                })
+                .catch(err => {
+                    console.log(err)
+                })
+        },
+        fetchStoreCardImages ({commit}) {
+            // will get the images from Cosmic js media folder and store in vuex
+            const params = {
+                folder: 'store-card-images'
+            }
+            Cosmic.getMedia(params)
+                .then(data => {
+                    commit('SET_STORE_CARD_IMAGES', data.media)
+                })
+                .catch(err => {
+                    console.log(err)
+                })
+        },
+        fetchMapIcons ({commit}) {
+            // will fetch the map icons images from cosmic
+            let icons = {}
+            const params = {
+                folder: 'map-images'
+            }
+            Cosmic.getMedia(params)
+                .then(data => {
+                    data.media.forEach(item => {
+                        if (item.original_name === 'Shopping_Bag_3.svg') {
+                            icons.defaultIcon = item.imgix_url
+                        } else if (item.original_name === 'Shopping_Bag_6.svg') {
+                            icons.selectedIcon = item.imgix_url
+                        }
+                    })
+                    commit('SET_MAP_ICONS', icons)
                 })
                 .catch(err => {
                     console.log(err)
