@@ -14,17 +14,14 @@
                     </div>
                     <div class="subheading location-edit" v-show="isSelectedLocationEdited">
                         <v-combobox label="Select a location"
+                            ref="locationCombobox"
                             v-model="selectedLocation"
                             :items="availableLocations"
+                            @change="onLocationChange"
+                            @blur.self="onLocationBlur"
+                            @input="onLocationBlur"
                             class="inline-input">
                         </v-combobox>
-                        <v-btn icon small
-                            :disabled="!editedLocation || editedLocation === selectedLocation"
-                            @click="onConfirmLocationEdit"
-                            class="inline-button"><v-icon color="indigo">check_circle</v-icon></v-btn>
-                        <v-btn icon small
-                            @click="onCancelLocationEdit"
-                            class="inline-button"><v-icon color="error">cancel</v-icon></v-btn>
                     </div>
                 </v-flex>
 
@@ -130,17 +127,9 @@ export default {
         // -------------------
         onEditSelectedLocation () {
             this.isSelectedLocationEdited = !this.isSelectedLocationEdited
-        },
-        onConfirmLocationEdit () {
-            // save the changes to vuex store
-            const location = this.editedLocation.split(', ')
-            this.updateSelectedLocation({state: location[1], city: location[0].toUpperCase(), postalCode: ''})
-            this.resetComponentData()
-        },
-        onCancelLocationEdit () {
-            // clear the changes
-            this.editedLocation = null
-            this.isSelectedLocationEdited = false
+            setTimeout(() => {
+                this.$refs.locationCombobox.focus()
+            }, 100)
         },
         onStoreClick (storeId) {
             this.ignoreScrollToSelectedStore = true
@@ -151,6 +140,20 @@ export default {
             // we can either use the event bus
             // or we can use vuex
             EventBus.recenterMapLocation()
+        },
+        onLocationChange () {
+            if (this.editedLocation) {
+                const location = this.editedLocation.split(', ')
+                this.updateSelectedLocation({state: location[1], city: location[0].toUpperCase(), postalCode: ''})
+                this.resetComponentData()
+            }
+        },
+        onLocationBlur () {
+            // clear the combobox edit mode if no changes.
+            if (this.isSelectedLocationEdited && !this.editedLocation) {
+                this.editedLocation = null
+                this.isSelectedLocationEdited = false
+            }
         },
         // -------------------
         // other methods

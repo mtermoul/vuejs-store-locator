@@ -32,8 +32,6 @@ export default {
             zoom: 11,
             mapMarkers: null,
             mapMarkerIconSize: null,
-            // mapMarkerDefaultIcon: 'https://cosmic-s3.imgix.net/08fb6f10-921e-11e8-92c7-d7a4fb5fbf55-Shopping_Bag_3.svg',
-            // mapMarkerSelectedIcon: 'https://cosmic-s3.imgix.net/09120450-921e-11e8-a052-e111405139f7-Shopping_Bag_6.svg',
             ignoreCenterOnSelectedStore: false
         }
     },
