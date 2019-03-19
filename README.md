@@ -6,7 +6,7 @@
 > Store locator app using Vue, Cosmic JS, and Google Maps.
 
 ## Demo
-<a href="http://store-locator.cosmicapp.co/">store-locator-app-demo</a>
+<a href="https://cosmicjs.com/apps/vuejs-store-locator/demo">store-locator-app-demo</a>
 
 ## Libraries
 - Vue
